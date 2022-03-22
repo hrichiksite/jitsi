@@ -2150,7 +2150,7 @@ install_latest_prosody()
     wget https://prosody.im/files/prosody-debian-packages.key -O- | sudo apt-key add -
 
     sudo apt-get update
-    sudo apt-get install prosody -y
+    apt-get install -y prosody-0.11
 
     logit "Prosody updated to latest version...Below is the version currently installed..."
     logit
