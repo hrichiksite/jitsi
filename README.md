@@ -1,5 +1,8 @@
 # Installer for jitsi-meet, jigasi and jibri 
 
+#### ```wget -O jitsi_ubuntu_setup https://raw.githubusercontent.com/hrichiksite/jitsiDeploy/master/jitsi_setup.sh```
+#### ```bash jitsi_ubuntu_setup```
+
 The script (_jitsi_setup.sh_) can be used to install **stable version of all 3** on a **stand-alone server**.
 
 This is simply a script version of quick-install document at https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart
